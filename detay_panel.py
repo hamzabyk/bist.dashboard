@@ -45,3 +45,5 @@ def detay_paneli(symbol):
     except Exception as e:
         st.error(f"Bir hata oluştu: {e}")
 
+if __name__ == "__main__":
+    detay_paneli("ASELS.IS")  # veya sembol input alıyorsan oradan
